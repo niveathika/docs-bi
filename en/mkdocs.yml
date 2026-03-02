@@ -101,12 +101,13 @@ nav:
         - Message Routing: integration-guides/integration-as-api/message-routing.md
       - File Integration:
         - integration-guides/file-integration/index.md
-        - File Sources:
-          - Local Files Integration: integration-guides/file-integration/file-sources/local-files-integration.md
-          - FTP Integration: integration-guides/file-integration/file-sources/ftp-integration.md
-          - FTPS Integration: integration-guides/file-integration/file-sources/ftps-integration.md
-          - SFTP Integration: integration-guides/file-integration/file-sources/sftp-integration.md
-        - Troubleshooting: integration-guides/file-integration/troubleshooting.md
+        - Local Files: integration-guides/file-integration/local-files-integration.md
+        - Remote Servers (FTP/SFTP):
+          - integration-guides/file-integration/remote-servers/index.md
+          - High Availability & Coordination: integration-guides/file-integration/remote-servers/high-availability-and-coordination.md
+          - Fault Tolerance: integration-guides/file-integration/remote-servers/fault-tolerance.md
+          - Resiliency: integration-guides/file-integration/remote-servers/resiliency.md
+          - Troubleshooting: integration-guides/file-integration/remote-servers/troubleshooting.md
       - Event Integration:
         - Change Data Capture (CDC):
           - Fraud Detection System with CDC for Microsoft SQL Server: integration-guides/event-integration/cdc/fraud-detection-system-with-cdc-for-mssql.md
